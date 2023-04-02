@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { FormComponent } from './module/form/form.component';
 import { MyHooksComponent } from './module/my-hooks/my-hooks.component';
+import { HomeComponent } from './module/home/home.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: AppComponent,
+    component: HomeComponent,
+    
   },
   {
     path: 'form',
