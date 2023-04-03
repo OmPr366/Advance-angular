@@ -10,6 +10,7 @@ import { ChildComponent } from './module/my-hooks/child/child.component';
 import { ParentComponent } from './module/my-hooks/parent/parent.component';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './module/home/home.component';
+import { InitialNamePipe } from './initial-name.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeComponent } from './module/home/home.component';
     MyHooksComponent,
     ChildComponent,
     ParentComponent,
-    HomeComponent
+    HomeComponent,
+    InitialNamePipe
   ],
   imports: [
     BrowserModule,

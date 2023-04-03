@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-hooks.component.scss']
 })
 export class MyHooksComponent {
-
+  amount =300
+  channelNAme = "CodeWithOP"
+  marks = 0.89
+  date = new Date()
+  name =  "Om Prakash"
 }

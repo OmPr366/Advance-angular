@@ -12,6 +12,18 @@
 
 </ul>
 
+<p>Amount {{amount | currency : 'INR'}} </p>
+<p>channelNAme :- {{ channelNAme | uppercase}} </p>
+<p>channelNAme :- {{ channelNAme | lowercase}} </p>
+<p>Marks :- {{ marks | percent}} </p>
+<p>Date is  :- {{ date | date}} </p>
+
+<h2>Custom pipes</h2>
+<p >NAme is :- <a class="initialName">{{name | initialName}}</a> </p>
+<p >NAme2 is :- <a class="initialName">{{"Name Kumar" | initialName}}</a> </p>
+
+
+
 
 <app-parent></app-parent>
 
